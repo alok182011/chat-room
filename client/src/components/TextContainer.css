@@ -1,0 +1,46 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.users-list {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+  height: 200px;
+  width: 300px;
+}
+
+.alok-link {
+  text-decoration: none;
+  color: #2979ff;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
